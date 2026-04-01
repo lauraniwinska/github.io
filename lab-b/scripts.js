@@ -95,7 +95,7 @@ class Todo {
         this.tasks[index].text = newValue;
       }
     } else if (field === "date") {
-      this.tasks[index].date = newValue; // dowolna data
+      this.tasks[index].date = newValue;
     }
 
     this.currentEditInput = null;
